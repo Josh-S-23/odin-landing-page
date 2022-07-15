@@ -3,15 +3,18 @@ body {
     font-family: 'Roboto';
 }
 
-.hero {
-    background-color: #1F2937;
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainOne {
+    background-color: #1f2937;
+    height: 550px;
 }
 
 .header {
-    font-size: 24px;
-    color: #f9faf8;
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding-top: 20px;
     padding-right: 20px;
@@ -19,9 +22,91 @@ body {
     padding-bottom: 100px;
 }
 
+.headerLogo {
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;  
+}
+
 .headerLinks {
     font-size: 18px;
-    padding-left: 700px;
+    padding-left: 600px;
+}
+
+.mainOneText {
+    display: flex;
+    align-items: center;
+}
+
+#elephant {
+    margin-left: 150px;
+    height: 250px;
+    width: 575px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+#mainText {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    padding-left: 300px;
+    margin-bottom: -10px;
+}
+
+#secondaryText {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-left: 300px;
+    margin-bottom: 5px;
+}
+
+#mainOneBtn {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 75px;
+    margin-left: 300px;
+}
+
+.mainTwo {
+    background-color: white;
+    height: 550px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imagesContainer {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#bird, #monkey, #lion, #dog {
+    margin-top: 50px;
+    height: 175px;
+    width: 175px;
+    border-radius: 15%;
+}
+
+.mainThree {
+    background-color: #e5e7eb;
+}
+
+.mainFour {
+    background-color: white;
 }
 
 ul {
@@ -36,39 +121,5 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
-
-.heroMainText {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-    padding-left: 300px;
-}
-
-.heroSecondaryText {
-    font-size: 18px;
-    color: #E5E7EB;
-    padding-left: 300px;
-}
-
-.heroSignUpBtn {
-    margin-top: 10px;
-    background-color: #3882f6;
-    color: white;
-    border-radius: 8px;
-    height: 35px;
-    width: 120px;
-    font-size: 17px;
-    border: none;
-    margin-bottom: 75px;
-}
-
-.imagePlaceholder {
-    height: 200px;
-    width: 400px;
-    background-color: grey;
-    margin-left: 500px;
-}
-
-
 
 
