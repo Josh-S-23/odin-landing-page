@@ -103,10 +103,77 @@ body {
 
 .mainThree {
     background-color: #e5e7eb;
+    height: 550px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#quoteID {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 1110px; 
 }
 
 .mainFour {
     background-color: white;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToAction {
+    height: 175px;
+    width: 1200px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+#signUpInfo {
+    color: white;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.signUpDescContainer {
+    display: flex;
+}
+
+#signUpDesc {
+    color: white;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+#actionBtn {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    margin-left: 200px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    height: 50px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
 }
 
 ul {
